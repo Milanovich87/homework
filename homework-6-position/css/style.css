@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;  
+}
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.title{
+    font-family: 'Raleway';
+    height: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+    position: relative;
+}
+.title::after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    left: 50% ;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+.text{
+    font-family: 'Raleway';
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin-top: 40px;
+}
+.carts_item_coments{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+.carts_item_triangle_down{
+    margin-left: 70px;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid  #E2E2E2;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+.carts_item_name_davis{
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    width: 269px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.carts_item_name_jaydon{
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    width: 269px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.carts_item_name_cooper{
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    width: 269px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.carts_item_manager{
+    position: absolute;
+    left: 0px;
+    top: 315px;
+    width: 270px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+}
+.carts_item_jaydon, .carts_item_davis, .carts_item_cooper{
+    position: relative;
+}
+.carts_item_img{
+    position: absolute;
+    left: 0;
+    top: 246px;
+}
