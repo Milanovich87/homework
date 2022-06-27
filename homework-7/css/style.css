@@ -6,12 +6,15 @@
 }
 .main{
     margin: 0 auto;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     
 }
 .header{
     background: #000000;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .header_item{
     display: flex;
