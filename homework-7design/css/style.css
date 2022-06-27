@@ -1,0 +1,87 @@
+@import "/lesson-7/homework-7design/css/fonts.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 15px;
+    background: url(../img/image\ \(1\).png) no-repeat center/cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.content__title{
+    width: 1200px;
+    height: 150px;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+justify-content: center;
+color: #FFFFFF;
+padding-top: 50px;
+}
+.content__line{
+    width: 170px;
+height: 0px;
+border: 1px solid #FFFFFF;
+margin-left: 520px;
+}
+.content__text{
+    width: 1200px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+justify-content: center;
+padding-top: 40px;
+}
+.content__btn__item{
+    height: 58px;
+width: 370px;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+justify-content: center;
+cursor:pointer;
+    overflow: hidden;
+    background: Transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: 73px;
+}
+.content__btn{
+    display: flex;
+    justify-content: center;
+}
+.content__btn__item:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+.content__btn__item:active{
+    background: #AB4949;
+    color: #FFFFFF;
+    border: none;
+}
