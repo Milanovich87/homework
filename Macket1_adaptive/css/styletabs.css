@@ -1,0 +1,103 @@
+@import "fonts.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.effect{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tabs{
+    padding: 99px 0;
+}
+.effect__tab__item, .effect__tab__item__border{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    width: 209px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px auto;
+    color: #333333;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.effect__tab__item__border{
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #FFFFFF;
+}
+.effect__tab{
+    margin-bottom: -1px;
+        
+}
+.tab{
+    width: 1200px;
+    height: 501px;
+    border: 1px solid #C6CBCD;
+    padding: 0 0 0 100px;
+}
+.tab__cart{
+    vertical-align: top;
+}
+.tab__cart__title{
+    font-family: 'Open Sans', sans-serif;
+    width: 570px;
+    height: 124px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    align-items: center;
+    color: #000000;
+    display: table-cell;
+    vertical-align: middle;
+}
+.tab__cart__text{
+    font-family: 'Raleway', sans-serif;
+    width: 570px;
+    height: 210px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #000000;   
+}
+.tab__cart__btn__item{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    background: #EC7979;
+    color: #FFFFFF;
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 27px 30px 54px 0;
+}
+.tab__cart__img{
+        width: 470px;
+    height: 500px;
+    background: url(.jpg);
+        float: right;
+}
+.tab__cart, .tab__cart__img{
+    display: inline-block;
+}
+.tab__cart__btn__item:hover{
+    background: #AB4949;
+}
+.tab__cart__btn__item:active{
+    background: #EC7979;
+}
